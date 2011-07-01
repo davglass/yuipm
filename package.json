@@ -1,0 +1,29 @@
+{
+    "name": "yuipm",
+    "version": "0.1.0",
+    "description": "YUI Package Manager",
+    "author": "Dav Glass <davglass@gmail.com>",
+    "bugs": { "web" : "http://github.com/davglass/yuipm/issues" },
+    "os": ["darwin", "linux"],
+    "engines": {
+        "node" : ">=0.4.0"
+    },
+    "main": "./lib/index",
+    "bin" : { "yuipm" : "./lib/cli.js" },
+    "dependencies": {
+        "yui3": "*",
+        "colors": "*",
+        "yui3-core": "3.3.0"
+    },
+    "preferGlobal": true,
+    "licenses":[
+        {
+            "type" : "BSD",
+            "url" : "http://developer.yahoo.com/yui/license.html"
+        }
+    ],
+    "repository": {
+        "type":"git",
+        "url":"http://github.com/davglass/yuipm.git"
+    }
+}
